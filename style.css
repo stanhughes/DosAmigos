@@ -1,0 +1,73 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arial Black', sans-serif;
+  background: url(cesira-alvarado-PxWU6oqmctY-unsplash.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #e2dbdb;
+  color: rgb(124, 185, 124);
+  color: rgba(21, 104, 70, 0.5);
+  color: rgb(201, 20, 41);
+  color: #84dcc6;
+  color: #a0e4d3;
+  color: #40c9a7;
+  color: #ff686b;
+  color: #ff1f22;
+  color: #40C9A7;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #40C9A7;
+}
+
+h3 {
+  color: green;
+  color: #ff1f22;
+  color: #40C9A7;
+}
+
+hr {
+  border-color: #F05F44;
+  border-color: #40C9A7;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  background-color: #40C9A7;
+  border-color: #40C9A7;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  background-color: #A5FFD6;
+  border-color: #A5FFD6;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
