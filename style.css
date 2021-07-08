@@ -4,7 +4,8 @@ html {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Arial Black', sans-serif;
-  background: url(cesira-alvarado-PxWU6oqmctY-unsplash.jpeg) no-repeat center center fixed; 
+  background: url(cesira-alvarado-PxWU6oqmctY-unsplash.jpeg) no-repeat center center fixed;
+  background: url(cesira-alvarado-dxIIYAiR2xw-unsplash.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,25 +13,19 @@ html {
 }
 
 h1 {
-  font-size: 6rem;
-  color: #e2dbdb;
+  font-size: 3rem;
   color: rgb(124, 185, 124);
   color: rgba(21, 104, 70, 0.5);
-  color: rgb(201, 20, 41);
-  color: #84dcc6;
-  color: #a0e4d3;
-  color: #40c9a7;
-  color: #ff686b;
-  color: #ff1f22;
   color: #40C9A7;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 1rem;
   color: #40C9A7;
 }
 
 h3 {
+  font-size: 1rem;
   color: green;
   color: #ff1f22;
   color: #40C9A7;
@@ -41,6 +36,11 @@ hr {
   border-color: #40C9A7;
   border-width: 3px;
   max-width: 65px;
+}
+
+.attribute {
+  font-size: 0.7rem;
+  color: rgb(124, 185, 124);
 }
 
 .buffer {
