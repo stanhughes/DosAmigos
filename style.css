@@ -4,12 +4,26 @@ html {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Arial Black', sans-serif;
-  background: url(cesira-alvarado-PxWU6oqmctY-unsplash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body::after {
+  content: "";
   background: url(cesira-alvarado-dxIIYAiR2xw-unsplash.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  opacity: 0.76;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 h1 {
@@ -17,11 +31,13 @@ h1 {
   color: rgb(124, 185, 124);
   color: rgba(21, 104, 70, 0.5);
   color: #40C9A7;
+  color: #101219;
 }
 
 h2 {
   font-size: 1rem;
   color: #40C9A7;
+  color: #101219;
 }
 
 h3 {
@@ -29,18 +45,22 @@ h3 {
   color: green;
   color: #ff1f22;
   color: #40C9A7;
+  color: #101219;
 }
 
 hr {
   border-color: #F05F44;
   border-color: #40C9A7;
+  border-color: #101219;
   border-width: 3px;
   max-width: 65px;
 }
 
 .attribute {
-  font-size: 0.7rem;
+  font-size: 0.95rem;
   color: rgb(124, 185, 124);
+  color: #6A93A0;
+  color: #101219;
 }
 
 .buffer {
@@ -58,6 +78,8 @@ hr {
   border-color: #F05F44;
   background-color: #40C9A7;
   border-color: #40C9A7;
+  background-color: #6A93A0;
+  border-color: #6A93A0;
 }
 
 .btn-primary:hover {
@@ -65,9 +87,46 @@ hr {
   border-color: #ee4b08;
   background-color: #A5FFD6;
   border-color: #A5FFD6;
+  background-color: #8FAEB7;
+  border-color: #8FAEB7;
   border-width: 4px;
 }
 
 .btn-xl {
   padding: 1rem 2rem;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+  color: #182225;
+}
+
+a:visited {
+  color: #437A16;
+  color: #182225;
+  color: #28393E;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+  background: #182225;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+  background: #6A93A0;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+  color: #182225;
 }
